@@ -1,0 +1,20 @@
+body {
+    background-image: url('images/badEnding.jpg');
+  }
+
+  .image-button {
+    display: inline-block;
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    position: relative;
+  }
+  
+  .image-button img {
+    display: block; 
+    width: 700px; 
+    height: auto; 
+    position: absolute;
+    bottom: 400px;
+    left: 55px;
+  }

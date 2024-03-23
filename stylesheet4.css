@@ -1,0 +1,20 @@
+body {
+    background-image: url('images/goodEnding.jpg');
+  }
+
+  .image-button {
+    display: inline-block;
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    position: relative;
+  }
+  
+  .image-button img {
+    display: block; 
+    width: 650px; 
+    height: auto; 
+    position: absolute;
+    bottom: 370px;
+    left: 50px;
+  }

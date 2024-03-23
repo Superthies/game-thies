@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+h1 {
+    margin-left: 1%;
+}
+
+.pixelAap, #aap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aap {
+    max-width: 30%; 
+    max-height: 30%; 
+}
+
+.pixelBanaan {
+    display: flex;
+    justify-content: space-around;
+}
+
+#banaan {
+    max-width: 15%;
+}
+
+#heart {
+    max-width: 15%;
+}
+
+#play {
+    max-width: 15%;
+}
+
+.textUses{
+    display: flex;
+    justify-content: space-around;
+}
+
+#scoreDisplay {
+    display: grid;
+    place-items: center; 
+    margin-top: 20px; 
+    font-size: 24px; 
+}
+
+.letGo{
+    display: flex;
+    justify-content: space-around;
+}
+
+#letGo {
+    display: none;
+    max-width: 15%;
+}
+
+#LetGoCircus {
+    display: none;
+    max-width: 15%;
+}
+
+.TextLetGo{
+    display: flex;
+    justify-content: space-around;
+}
+
+#release{
+    display: none;
+}
+
+#circus {
+    display: none;
+}
+
+
+
+
+
+
